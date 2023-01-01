@@ -29,6 +29,15 @@ body {
   font-family: "Inter", sans-serif !important;
 }
 
+.btn-book-now-float {
+  float: none;
+  position: fixed;
+  right: 0;
+  top: 25%;
+  display: block;
+  z-index: 20000;
+}
+
 a {
   color: var(--site-primary-color);
   text-decoration: none;
@@ -552,6 +561,11 @@ h6 {
 #hero .btn-get-started:hover {
   background: var(--site-primary-color);
   border: 2px solid var(--site-primary-color);
+}
+
+#hero .btn-book-now {
+  background: var(--site-primary-color);
+  border: none;
 }
 
 @media (min-width: 1024px) {
